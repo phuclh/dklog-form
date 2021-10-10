@@ -1,0 +1,39 @@
+{
+    "name": "phuclh/dklog-form",
+    "description": "Add ability to create and submit forms for DKLog.",
+    "keywords": [
+        "dklog",
+        "blog",
+        "form"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "phuclh/dklog": "*"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/phuclh/dklog"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Phuclh\\DKLogForm\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Phuclh\\DKLogForm\\PluginServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
