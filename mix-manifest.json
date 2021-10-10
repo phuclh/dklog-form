@@ -1,6 +1,6 @@
 {
-    "/resources/dist/js/plugin.js": "/resources/dist/js/plugin.js",
-    "/resources/dist/js/admin/plugin.js": "/resources/dist/js/admin/plugin.js",
+    "/dist/js/plugin.js": "/dist/js/plugin.js",
+    "/dist/js/admin/plugin.js": "/dist/js/admin/plugin.js",
     "/dist/css/admin/plugin.css": "/dist/css/admin/plugin.css",
     "/dist/css/plugin.css": "/dist/css/plugin.css"
 }
