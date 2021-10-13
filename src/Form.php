@@ -9,6 +9,10 @@ class Form
 
     public static function registerIn(string $directory): void
     {
+        if (!file_exists($directory)) {
+            return;
+        }
+
         $namespace = app()->getNamespace();
 
         $forms = [];
