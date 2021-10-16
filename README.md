@@ -57,4 +57,6 @@ class NewsletterForm extends BaseForm
 - [] Command to generate Form class.
 - [] Publishing plugin config/assets.
 - [] Add @includeForm directive. 
+- [] @tailwindcss/form.
+- [] Add input error compoenent.
 
